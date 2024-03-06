@@ -3,9 +3,9 @@ function printText(e) {
     var text2 = document.getElementById("field2").value;
     var text3 = document.getElementById("field3").value;
 
-    var submitedText = "field1" + text1 + "\n" +
-                       "field2" + text2 + "\n" +
-                       "field3" + text3;
+    var submitedText =  text1 + "\n" +
+                        text2 + "\n" +
+                        text3;
 
     document.getElementById("formtext").value = submitedText;
 }
